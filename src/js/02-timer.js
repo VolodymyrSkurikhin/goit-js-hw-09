@@ -8,8 +8,6 @@ const hoursRef = document.querySelector('[data-hours]');
 const minutesRef = document.querySelector('[data-minutes]');
 const secondsRef = document.querySelector('[data-seconds]');
 
-
-console.dir(btnRef);
 btnRef.disabled = true;
 console.log(pickerRef);
 const options = {

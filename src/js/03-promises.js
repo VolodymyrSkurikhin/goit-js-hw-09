@@ -1,8 +1,8 @@
 const formRef = document.querySelector("form");
 
-formRef.addEventListener('click', executor);
+formRef.addEventListener('click', makePromises);
 
-function executor(event) {
+function makePromises(event) {
   event.preventDefault();
   const promiseAmount = Number(event.currentTarget.elements.amount.value);
   const step = Number(event.currentTarget.elements.step.value);
