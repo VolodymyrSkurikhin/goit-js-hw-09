@@ -9,7 +9,7 @@ const minutesRef = document.querySelector('[data-minutes]');
 const secondsRef = document.querySelector('[data-seconds]');
 
 btnRef.disabled = true;
-console.log(pickerRef);
+console.dir(pickerRef);
 const options = {
   enableTime: true,
   time_24hr: true,
