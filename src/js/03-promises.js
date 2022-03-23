@@ -1,4 +1,5 @@
 const formRef = document.querySelector("form");
+console.log(formRef);
 
 formRef.addEventListener('click', makePromises);
 
